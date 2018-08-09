@@ -19,7 +19,7 @@ function increaseRankBy(n){
   const lis = document.getElementById('app').querySelectorAll('ul.ranked-list li')
  
   for (let i = 0; i < lis.length; i++) {
-    let original = lis[i].innerHTML
+    let original = lis[i].innerHTML;
     lis[i].innerHTML = (original.parseInt() + 4).toString();
   }
 }
