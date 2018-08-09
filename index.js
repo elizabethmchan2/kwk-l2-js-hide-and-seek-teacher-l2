@@ -20,6 +20,6 @@ function increaseRankBy(n){
  
   for (let i = 0; i < lis.length; i++) {
     let original = lis[i].innerHTML;
-    lis[i].innerHTML = (parseInt(original) + 4).toString();
+    lis[i].innerHTML = (parseInt(original) + n).toString();
   }
 }
